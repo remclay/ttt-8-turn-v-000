@@ -28,6 +28,6 @@ def position_taken?(current_board, index)
   end
 end
 
-def move(current_board, index, mark = "X")
+def move(current_board, index, token = "X")
 
 end
