@@ -20,7 +20,7 @@ def valid_move?(board, index)
   end
 end
 
-def position_taken?(board, index)
+def position_taken?(current_board, index)
   if (board[index] == "X" || board[index] == "O")
     return true
   elsif (board[index] != " " || board[index] != "" || board[index] != nil)
@@ -28,6 +28,6 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, index)
+def move(current_board, index)
 
 end
