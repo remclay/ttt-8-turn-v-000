@@ -9,5 +9,5 @@ puts "Welcome to Tic Tac Toe!"
 move(current_board, 4, "O")
 move(current_board, 3, "X")
 
-isplay_board(current_board)
+display_board(current_board)
 turn(current_board)
