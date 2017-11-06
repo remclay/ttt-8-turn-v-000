@@ -5,9 +5,14 @@ current_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 
-
-move(current_board, 4, "O")
-move(current_board, 3, "X")
-
 display_board(current_board)
+
+turn(current_board)
+turn(current_board)
+turn(current_board)
+turn(current_board)
+turn(current_board)
+turn(current_board)
+turn(current_board)
+turn(current_board)
 turn(current_board)
