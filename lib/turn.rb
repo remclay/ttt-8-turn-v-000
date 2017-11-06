@@ -39,6 +39,6 @@ def turn(current_board)
   if valid_move?(current_board, index)
     move(current_board, index, token = "X")
   else
-    
+
   end
 end
