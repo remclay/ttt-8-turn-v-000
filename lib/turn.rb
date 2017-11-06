@@ -11,3 +11,5 @@ def valid_move
 end
 
 def move(board, index)
+
+end
